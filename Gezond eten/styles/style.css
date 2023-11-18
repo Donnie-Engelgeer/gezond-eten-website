@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: #EED3FF;
+    margin: 0;
+}
+
+h1 {
+    padding: 30px;
+    font-size: 50px;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+h4 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+    background-color: #BD9DFF;
+    border-radius: 10px;
+    border: 0;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 450px;
+}
+
+.buttons {
+    display: flex;
+    flex-basis: 75%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.active {
+    border: 6px inset #000000;
+}
+
+button:hover {
+    transform: scale(1.1);
+    filter: brightness(80%);
+    cursor: pointer;
+}
+
+.content {
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.pagetitle {
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.introduction {
+    width: 50%;
+    font-weight: bold;
+}
+
+.paragraph1, .paragraph2, .paragraph3, .paragraph4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text1, .text2, .text3, .text4 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+img {
+    height: 300px;
+    width: auto;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.p3images {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer {
+    position: relative;
+    text-align: center;
+    height: 250px;
+}
+
+.footertext {
+    position: relative;
+    bottom: -70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+    gap: 10%;
+}
+
+.twitter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#image6 {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    object-fit:cover;
+}
+
+#image7 {
+    filter: opacity(100%);
+    height: 20px;
+    margin: 0;
+    margin-right: 5%;
+    border: 0;
+    border-radius: 0;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10%;
+}
+
+.calculatorinput, .bmitext {
+    padding: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    width: 250px;
+    background-color: #EED3FF;
+}
+
+.bmiresults {
+    display: flex;
+    flex-basis: 50%;
+    height: 300px;
+    align-items: center;
+}
+
+#submit {
+    width: 60%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.errortext {
+    color: red;
+    font-size: 20px;
+}
+
+.finishtext {
+    color: green;
+    font-size: 20px;
+}
+
+.bmitext {
+    text-align: center;
+    font-size:  40px;
+    font-weight: bold;
+    width: 750px;
+}
+
+.recepten {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#receptenboxes {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: #EED3FF;
+    margin: 1%;
+}
+
+.recipieimages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#receptenboxes img {
+    width: 100%;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.lists {
+    padding: 20px;
+}
+
+#recipenames {
+    text-align: center;
+}
+
+#receptentitle {
+    text-align: center;
+}
+
+.lists li {
+    padding-bottom: 10px;
+}
